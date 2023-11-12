@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do list by Haivoronskyi</title>
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+<h1>To-Do list by <a href="https://github.com/hakansky">Haivoronskyi Kh.</a></h1>
+    <div class="wrapper">
+
+        <div class="input-panel">
+            <img src="./assets/img/bars.svg" alt="icon">
+            <input maxlength="60" id="task-input-panel" type="text" placeholder="Add a new task..">
+        </div>
+
+        <div class="control">
+            <div class="filters">
+                <span class="active" id="all">All</span>
+                <span id="in-process">In process</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button id="clear-all-button">Clear all</button>
+        </div>
+
+        <ul class="task-list"></ul>
+
+    </div>
+
+
+<script src="./src/main.js"></script>
+</body>
+</html>
